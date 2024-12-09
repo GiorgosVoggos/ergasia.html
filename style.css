@@ -1,0 +1,99 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+
+header {
+    background-color: black;
+    color: darkred;
+    padding: 10px;
+    text-align: center;
+
+}
+
+h1 {
+    color: firebrick;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a{
+    color: darkviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.eikona1 {
+    text-align: center; 
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: darkviolet;
+}
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0px 10px;
+    cursor:pointer
+}
+
+form button{
+    padding: 10px 15px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+background-color: darkred ;
+}
+
+
+form:hover {
+border-radius: 22px;
+border-color:cornflowerblue;
+
+}
+
+p {
+    text-align: center;
+    font-weight:bold;
+    color: black;
+
+}
+
+form textarea:hover{
+    transition: 0.5s;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 22px;
+    border-color: brown;
+    font-family: sans-serif;
+    cursor:text
+    
+}
+
+.gates-multimedia {
+    display: flex;
+    gap: 50px;
+
+}
